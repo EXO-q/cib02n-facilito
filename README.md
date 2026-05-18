@@ -16,8 +16,8 @@ sus responsabilidades en servicios independientes.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    FRONTEND (React)                      │
-│              http://localhost:5173                       │
+│                    FRONTEND (React)                     │
+│              http://localhost:5173                      │
 │  Consume los 3 microservicios al cargar la app          │
 └────────────┬──────────────┬──────────────┬──────────────┘
              │              │              │
@@ -50,27 +50,23 @@ caso en que los servicios no estén disponibles (modo offline con datos locales)
 
 ## Cómo ejecutar
 
-### 1. Instalar dependencias Python (una sola vez)
+### 1. Levantar los contenedores
+
+Levantar todos los contenedores y la red interna:
 
 ```bash
-pip install -r requirements.txt
+docker compose up --build
 ```
 
-### 2. Levantar los microservicios
+Levantar cada microservicio de forma independiente:
 
-**Windows:**
-```
-iniciar-servicios.bat
-```
-Se abrirán 3 ventanas de consola, una por servicio.
-
-**Mac/Linux:**
 ```bash
-chmod +x iniciar-servicios.sh
-./iniciar-servicios.sh
+cd ms-grifos # Carpeta respectiva del microservicio
+docker build -t ms-grifos . # Nombre
+docker run --rm -p 8001:8001 ms-grifos # Puerto
 ```
 
-### 3. Levantar el frontend
+### 2. Levantar el frontend
 
 ```bash
 cd frontend
@@ -129,6 +125,6 @@ no duplicar el catálogo. Aquí ambos tienen copia local por simplicidad.
 
 ## Integrantes
 
-- [Nombre 1]
-- [Nombre 2]
-- [Nombre 3]
+- Edson Alonso Quispe Estrada
+- Álvaro Antonio Canchaya Espinoza
+- Arthur Ruiz Tarazona

@@ -1,0 +1,41 @@
+services:
+
+  ms-ubicacion:
+    build: ./ms-ubicacion
+    container_name: ms-ubicacion
+    ports:
+      - "8003:8003"
+    environment:
+      - GRIFOS_URL=http://ms-grifos:8001
+    depends_on:
+      - ms-grifos
+    networks:
+      - red-interna
+    restart: unless-stopped
+
+  ms-precios:
+    build: ./ms-precios
+    container_name: ms-precios
+    ports:
+      - "8002:8002"
+    environment:
+      - GRIFOS_URL=http://ms-grifos:8001
+    depends_on:
+      - ms-grifos
+    networks:
+      - red-interna
+    restart: unless-stopped
+
+  ms-grifos:
+    build: ./ms-grifos
+    container_name: ms-grifos
+    ports:
+      - "8001:8001"
+    networks:
+      - red-interna
+    restart: unless-stopped
+
+  
+networks:
+  red-interna:
+    driver: bridge

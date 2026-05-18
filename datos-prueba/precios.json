@@ -1,0 +1,192 @@
+{
+  "uni-1": {
+    "regular": 15.90,
+    "premium": 21.10,
+    "diesel": 14.85
+  },
+  "uni-2": {
+    "regular": 14.80,
+    "premium": 19.70,
+    "diesel": 15.30
+  },
+  "uni-3": {
+    "regular": 15.45,
+    "premium": 20.20,
+    "diesel": 13.90
+  },
+  "uni-4": {
+    "regular": 15.20,
+    "premium": 18.30,
+    "diesel": 14.60
+  },
+  "uni-5": {
+    "regular": 17.40,
+    "premium": 19.10,
+    "diesel": 14.95
+  },
+  "uni-6": {
+    "regular": 16.80,
+    "premium": 20.90,
+    "diesel": 15.70
+  },
+  "uni-7": {
+    "regular": 16.10,
+    "premium": 19.40,
+    "diesel": 16.20
+  },
+  "uni-8": {
+    "regular": 15.65,
+    "premium": 20.50,
+    "diesel": 14.40
+  },
+  "uni-9": {
+    "regular": 16.35,
+    "premium": 18.95,
+    "diesel": 15.05
+  },
+  "uni-10": {
+    "regular": 15.05,
+    "premium": 20.05,
+    "diesel": 14.10
+  },
+  "mfl-1": {
+    "regular": 17.20,
+    "premium": 22.50,
+    "diesel": 16.80
+  },
+  "mfl-2": {
+    "regular": 16.90,
+    "premium": 21.80,
+    "diesel": 16.20
+  },
+  "mfl-3": {
+    "regular": 16.50,
+    "premium": 21.20,
+    "diesel": 15.90
+  },
+  "si-1": {
+    "regular": 17.40,
+    "premium": 22.80,
+    "diesel": 16.90
+  },
+  "si-2": {
+    "regular": 17.10,
+    "premium": 22.40,
+    "diesel": 16.60
+  },
+  "sb-1": {
+    "regular": 16.30,
+    "premium": 21.00,
+    "diesel": 15.70
+  },
+  "sb-2": {
+    "regular": 15.80,
+    "premium": 20.40,
+    "diesel": 15.10
+  },
+  "sur-1": {
+    "regular": 16.70,
+    "premium": 21.60,
+    "diesel": 16.00
+  },
+  "sur-2": {
+    "regular": 16.40,
+    "premium": 21.10,
+    "diesel": 15.60
+  },
+  "sur-3": {
+    "regular": 15.95,
+    "premium": 20.60,
+    "diesel": 15.20
+  },
+  "lm-1": {
+    "regular": 16.20,
+    "premium": 21.30,
+    "diesel": 15.50
+  },
+  "lm-2": {
+    "regular": 15.90,
+    "premium": 20.90,
+    "diesel": 15.20
+  },
+  "ate-1": {
+    "regular": 15.30,
+    "premium": 19.80,
+    "diesel": 14.50
+  },
+  "ate-2": {
+    "regular": 14.90,
+    "premium": 19.20,
+    "diesel": 14.10
+  },
+  "lo-1": {
+    "regular": 15.50,
+    "premium": 20.10,
+    "diesel": 14.70
+  },
+  "lo-2": {
+    "regular": 15.10,
+    "premium": 19.60,
+    "diesel": 14.30
+  },
+  "sm-1": {
+    "regular": 16.00,
+    "premium": 20.80,
+    "diesel": 15.30
+  },
+  "sm-2": {
+    "regular": 15.75,
+    "premium": 20.50,
+    "diesel": 15.00
+  },
+  "cl-1": {
+    "regular": 15.40,
+    "premium": 19.90,
+    "diesel": 14.60
+  },
+  "cl-2": {
+    "regular": 14.70,
+    "premium": 19.10,
+    "diesel": 14.00
+  },
+  "jm-1": {
+    "regular": 16.10,
+    "premium": 20.70,
+    "diesel": 15.40
+  },
+  "lin-1": {
+    "regular": 15.85,
+    "premium": 20.30,
+    "diesel": 15.10
+  },
+  "bar-1": {
+    "regular": 16.60,
+    "premium": 21.40,
+    "diesel": 15.80
+  },
+  "cho-1": {
+    "regular": 15.60,
+    "premium": 20.20,
+    "diesel": 14.80
+  },
+  "cho-2": {
+    "regular": 15.00,
+    "premium": 19.50,
+    "diesel": 14.20
+  },
+  "ves-1": {
+    "regular": 14.80,
+    "premium": 19.30,
+    "diesel": 13.90
+  },
+  "cal-1": {
+    "regular": 15.20,
+    "premium": 19.70,
+    "diesel": 14.40
+  },
+  "cal-2": {
+    "regular": 14.60,
+    "premium": 19.00,
+    "diesel": 13.80
+  }
+}
