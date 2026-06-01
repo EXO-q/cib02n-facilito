@@ -1,14 +1,14 @@
-# MICROSERVICIO — LOGIN
+# MICROSERVICIO — GRIFOS
 
 # Imagen base de Python 3.12 en su versión 'slim' (Alpine)
 FROM python:3.12-slim
 
 # PYTHONDONTWRITEBYTECODE=1 — Evita que Python genere archivos .pyc (ahorra espacio en el contenedor)
 # PYTHONUNBUFFERED=1 — Muestra los logs en tiempo real (sin guardarlos en buffer)
-# PORT=8080 — Variable de entorno que indica el puerto expuesto por el microservicio
+# PORT=8001 — Variable de entorno que indica el puerto expuesto por el microservicio
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    PORT=8080
+    PORT=8001
 
 # Directorio de trabajo
 WORKDIR /app
