@@ -1,12 +1,12 @@
 services:
 
   nginx-gateway:
-    image: nginx:alpine # Imagen oficial
+    image: nginx:alpine
     container_name: nginx-gateway
     ports:
-      - "80:80"      # HTTP
+      - "80:80"
     volumes:
-      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
     networks:
       - red-interna
     restart: always
