@@ -1,0 +1,26 @@
+services:
+
+  nginx-gateway:
+    image: nginx:alpine # Imagen oficial
+    container_name: nginx-gateway
+    ports:
+      - "80:80"      # HTTP
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+    networks:
+      - red-interna
+    restart: always
+
+    ms-login:
+      build: ./ms-login
+      container_name: ms-login
+      ports:
+        - "8080:8080"
+      networks:
+        - red-interna
+      restart: unless-stopped
+
+
+networks:
+  red-interna:
+    driver: bridge
