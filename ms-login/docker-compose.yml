@@ -11,14 +11,14 @@ services:
       - red-interna
     restart: always
 
-    ms-login:
-      build: ./ms-login
-      container_name: ms-login
-      ports:
-        - "8080:8080"
-      networks:
-        - red-interna
-      restart: unless-stopped
+  ms-login:
+    build: ./ms-login
+    container_name: ms-login
+    ports:
+      - "8080:8080"
+    networks:
+      - red-interna
+    restart: unless-stopped
 
 
 networks:
