@@ -35,6 +35,17 @@ services:
       - red-interna
     restart: unless-stopped
 
+  ms-login:
+    build: ./ms-login
+    container_name: ms-login
+    ports:
+      - "8004:8004"
+    environment:
+      - JWT_SECRET=supersecretchangeme
+    networks:
+      - red-interna
+    restart: unless-stopped
+
   
 networks:
   red-interna:
